@@ -4,6 +4,7 @@ const cors = require('cors')
 
 const {con, checkConnectDB , checkServerStarted} = require('./configs');
 const studentLogin = require('./auth/login');
+
 const studentRegister = require('./auth/registration');
 
 
