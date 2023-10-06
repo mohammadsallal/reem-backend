@@ -7,6 +7,7 @@ const studentLogin = require('./auth/login');
 const studentRegister = require('./auth/registration');
 
 
+
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
