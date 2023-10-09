@@ -12,8 +12,10 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-con.connect(checkConnectDB);
-
+// con.connect(checkConnectDB);
+app.get('/home',(req,res)=>{
+    res.send('Hello Mohammad')
+})
 
 app.post('/register/student' , studentRegister)
 app.post('/login/student' , studentLogin)
